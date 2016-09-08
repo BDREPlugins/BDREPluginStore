@@ -6,14 +6,6 @@
          "columns":[  
             {  
                "category":"Category 1",
-               "plugin_unique_id":"cluster-migration-1.0.0",
-               "description":"This application is about ",
-               "location":"https://github.com/BDREPlugins/adhoc-hive-cluster-migration.git",
-               "name":"Adhoc Cluster Migration",
-               "icon":"analytic.png"
-            },
-            {  
-               "category":"Category 1",
                "plugin_unique_id":"dq-1.0.0",
                "description":"This application is about ",
                "location":"https://github.com/BDREPlugins/data-quality.git",
