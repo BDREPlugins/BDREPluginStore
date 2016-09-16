@@ -9,6 +9,7 @@ This repo contains pre-configured [BDRE(Bigdata Ready Enterprise)](https://githu
  - Spark Action
  - Teradata Ingestion
  - Teradata Query Execution
+
 ## How to Develop Plugin
 ### Plugin Contains
  - [Plugin Specific dir](###Plugin Specific dir)
