@@ -19,7 +19,8 @@ This repo contains pre-configured [BDRE(Bigdata Ready Enterprise)](https://githu
  
  Let me discuss the structure of plugin in detail.
  
-### Plugin Module Contains
+## Plugin Module Contains
+
    [Plugin Specific dir](###Plugin Specific dir)
    [md-rest-api](###md-rest-api)
    [md-ui](###md-ui)
