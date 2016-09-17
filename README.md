@@ -27,7 +27,7 @@ This repo contains pre-configured [BDRE(Bigdata Ready Enterprise)](https://githu
  - [workflow-generator](###workflow-generator)
  - [plugin.json](###Plugin Json)
  - [pom.xml](###POM.xml)
- - [settings.xml](###Settings.xml)
+ - [settings.xml](#Settings.xml)
 
 ### Plugin Specific dir
 - This is a plugin specific directory which contains all the functions and its dependencies required to run the plugin. 
@@ -50,5 +50,5 @@ This repo contains pre-configured [BDRE(Bigdata Ready Enterprise)](https://githu
 ### POM.xml
 - Since this is a maven project, pom.xml is must to build the plugin successfully.
 
-### Setting.xml
+# Setting.xml
 - This .xml file contains the version of the software required for plugin.
