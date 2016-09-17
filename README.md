@@ -21,13 +21,13 @@ This repo contains pre-configured [BDRE(Bigdata Ready Enterprise)](https://githu
  
 ## Plugin Module Contains
 
- - [Plugin Specific dir](###plugin-specific-dir)
- - [md-rest-api](###md-rest-api)
- - [md-ui](###md-ui)
- - [scripts](###scripts)
- - [workflow-generator](###workflow-generator)
- - [plugin.json](###plugin-json)
- - [pom.xml](###pom.xml)
+ - [Plugin Specific dir](#plugin-specific-dir)
+ - [md-rest-api](#md-rest-api)
+ - [md-ui](#md-ui)
+ - [Scripts](#scripts)
+ - [workflow-generator](#workflow-generator)
+ - [Plugin Json](#plugin-json)
+ - [POM.xml](#pom.xml)
  - [Settings.xml](#settings.xml)
 
 ### Plugin Specific dir
@@ -58,6 +58,6 @@ This repo contains pre-configured [BDRE(Bigdata Ready Enterprise)](https://githu
 
 - Since this is a maven project, pom.xml is must to build the plugin successfully.
 
-# Settings.xml
+### Settings.xml
 
 - This .xml file contains the version of the software required for plugin.
