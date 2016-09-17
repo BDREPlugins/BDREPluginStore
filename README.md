@@ -27,8 +27,8 @@ This repo contains pre-configured [BDRE(Bigdata Ready Enterprise)](https://githu
  - [Scripts](#scripts)
  - [workflow-generator](#workflow-generator)
  - [Plugin Json](#plugin-json)
- - [POM.xml](#pom)
- - [Settings.xml](#settings)
+ - [POM.xml](#pomxml)
+ - [Settings.xml](#settingsxml)
 
 ### Plugin Specific dir
 
