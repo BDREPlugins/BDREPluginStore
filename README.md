@@ -50,5 +50,5 @@ This repo contains pre-configured [BDRE(Bigdata Ready Enterprise)](https://githu
 ### POM.xml
 - Since this is a maven project, pom.xml is must to build the plugin successfully.
 
-# Setting.xml
+# Settings.xml
 - This .xml file contains the version of the software required for plugin.
