@@ -30,7 +30,7 @@ This repo contains pre-configured [BDRE(Bigdata Ready Enterprise)](https://githu
  - [md-ui](#md-ui)
  - [Scripts](#scripts)
  - [workflow-generator](#workflow-generator)
- - [Plugin Descriptor Json](#plugin-json)
+ - [Plugin Descriptor Json](#plugin-descriptor-json)
  - [POM.xml](#pomxml)
  - [Settings.xml](#settingsxml)
 
@@ -71,9 +71,9 @@ This repo contains pre-configured [BDRE(Bigdata Ready Enterprise)](https://githu
    -	uninstallable
  -	plugin-dependencies
   -	[0]
-   -	plugin-id
-   -	version
-   -	version-level //whether exact or greater version of the parent plugin is needed
+   &nbsp; -	plugin-id
+   &nbsp; -	version
+  &nbsp;  -	version-level //whether exact or greater version of the parent plugin is needed
   -	[1]
    -	plugin-id
    -	version
