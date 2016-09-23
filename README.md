@@ -60,78 +60,78 @@ This repo contains pre-configured [BDRE(Bigdata Ready Enterprise)](https://githu
   Plugin descriptor reader takes the path of a Json descriptor as parameter and de-serializes that into a Java data structure. The structure of the JSON is given below.
 
 #### Following is the high level json schema
-•	JSON root
- •	plugin-details //for installed_plugin table
-   o	plugin-id //Don’t need unique id and add ts as they can be derived
-   o	name
-   o	description
-   o	version
-   o	author
-   o	plugin-website
-   o	uninstallable
- •	plugin-dependencies
-  •	[0]
-   o	plugin-id
-   o	version
-   o	version-level //whether exact or greater version of the parent plugin is needed
-  •	[1]
-   o	plugin-id
-   o	version
-   o	version-level
-  •	[2]
-   o	plugin-id
-   o	version
-   o	version-level
- o	plugin config
-  •	[0]
-   o	config group 
-   o	key
-   o	value 
-  •	[1]
-   o	config group 
-   o	key
-   o	value 
-  •	[2]
-   o	config group 
-   o	key
-   o	value  
- •	install // During installation this part would be read
-  •	fs[0]//All actions under FS tag are for file system actions. 
-   o	action //0th element is the action name
-   o	sourceLocation // Other ordered elements are parameters to the action
-   o	destinationLocation
-   o	permission
-   o	copy
-  •	fs[1]
-   o	action 
-   o	sourceLocation 
-   o	destinationLocation
-   o	permission
-   o	copy
- •	metadata //All DB actions
-  •	insert
-   o	tableName
-   o	data
-    	[0] //These are records to be inserted.
-    	[1]
-    	[2]
-    	[3]
-  •	delete
-   o	tableName
-   o	data
-    o	[0] //e.g. col1=’12’ will delete all records from < tableName> where col1=’12’
-    o	[1]
-  •	update
-   o	tableName
-   o	data
-    	[0]
-    	[1]
-    	[2]
-•	uiwar
-   o	location
-   o	localizationFile
-•	restwar
-   o	location
+  	JSON root
+ -	plugin-details //for installed_plugin table
+   -	plugin-id //Don’t need unique id and add ts as they can be derived
+   -	name
+   -	description
+   -	version
+   -	author
+   -	plugin-website
+   -	uninstallable
+ -	plugin-dependencies
+  -	[0]
+   -	plugin-id
+   -	version
+   -	version-level //whether exact or greater version of the parent plugin is needed
+  -	[1]
+   -	plugin-id
+   -	version
+   -	version-level
+  -	[2]
+   -	plugin-id
+   -	version
+   -	version-level
+ -	plugin config
+  -	[0]
+   -	config group 
+   -	key
+   -	value 
+  -	[1]
+   -	config group 
+   -	key
+   -	value 
+  -	[2]
+   -	config group 
+   -	key
+   -	value  
+ -	install // During installation this part would be read
+  -	fs[0]//All actions under FS tag are for file system actions. 
+   -	action //0th element is the action name
+   -	sourceLocation // Other ordered elements are parameters to the action
+   -	destinationLocation
+   -	permission
+   -	copy
+  -	fs[1]
+   -	action 
+   -	sourceLocation 
+   -	destinationLocation
+   -	permission
+   -	copy
+ -	metadata //All DB actions
+  -	insert
+   -	tableName
+   -	data
+    -	[0] //These are records to be inserted.
+    -	[1]
+    -	[2]
+    -	[3]
+  -	delete
+   -	tableName
+   -	data
+    -	[0] //e.g. col1=’12’ will delete all records from < tableName> where col1=’12’
+    -	[1]
+  -	update
+   -	tableName
+   -	data
+    -	[0]
+    -	[1]
+    -	[2]
+-	uiwar
+   -	location
+   -	localizationFile
+-	restwar
+   -	location
 
 
 
