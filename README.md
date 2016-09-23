@@ -71,62 +71,62 @@ This repo contains pre-configured [BDRE(Bigdata Ready Enterprise)](https://githu
    -	uninstallable
  -	plugin-dependencies
   -	[0]
-   &nbsp; -	plugin-id
-   &nbsp; -	version
-  &nbsp;  -	version-level //whether exact or greater version of the parent plugin is needed
+   -	- plugin-id
+   -	- version
+   -	- version-level //whether exact or greater version of the parent plugin is needed
   -	[1]
-   -	plugin-id
-   -	version
-   -	version-level
+   -	- plugin-id
+   -	- version
+   -	- version-level
   -	[2]
-   -	plugin-id
-   -	version
-   -	version-level
+   -	- plugin-id
+   -	- version
+   -	- version-level
  -	plugin config
   -	[0]
-   -	config group 
-   -	key
-   -	value 
+   -	- config group 
+   -	- key
+   -	- value 
   -	[1]
-   -	config group 
-   -	key
-   -	value 
+   -	- config group 
+   -	- key
+   -	- value 
   -	[2]
-   -	config group 
-   -	key
-   -	value  
+   -	- config group 
+   -	- key
+   -	- value  
  -	install // During installation this part would be read
   -	fs[0]//All actions under FS tag are for file system actions. 
-   -	action //0th element is the action name
-   -	sourceLocation // Other ordered elements are parameters to the action
-   -	destinationLocation
-   -	permission
-   -	copy
+   -	- action //0th element is the action name
+   -	- sourceLocation // Other ordered elements are parameters to the action
+   -	- destinationLocation
+   -	- permission
+   -	- copy
   -	fs[1]
-   -	action 
-   -	sourceLocation 
-   -	destinationLocation
-   -	permission
-   -	copy
+   -	- action 
+   -	- sourceLocation 
+   -	- destinationLocation
+   -	- permission
+   -	- copy
  -	metadata //All DB actions
   -	insert
-   -	tableName
-   -	data
-    -	[0] //These are records to be inserted.
-    -	[1]
-    -	[2]
-    -	[3]
+   -	- tableName
+   -	- data
+    -	- -[0] //These are records to be inserted.
+    -	- -[1]
+    -	- -[2]
+    -	- -[3]
   -	delete
-   -	tableName
-   -	data
-    -	[0] //e.g. col1=’12’ will delete all records from < tableName> where col1=’12’
-    -	[1]
+   -	- tableName
+   -	- data
+    -	- -[0] //e.g. col1=’12’ will delete all records from < tableName> where col1=’12’
+    -	- -[1]
   -	update
-   -	tableName
-   -	data
-    -	[0]
-    -	[1]
-    -	[2]
+   -	- tableName
+   -	- data
+    -	- -[0]
+    -	- -[1]
+    -	- -[2]
 -	uiwar
    -	location
    -	localizationFile
