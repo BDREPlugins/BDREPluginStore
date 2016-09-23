@@ -127,10 +127,10 @@ This repo contains pre-configured [BDRE(Bigdata Ready Enterprise)](https://githu
     -	- -[0]
     -	- -[1]
     -	- -[2]
--	uiwar
+ -	uiwar
    -	location
    -	localizationFile
--	restwar
+ -	restwar
    -	location
 
 
